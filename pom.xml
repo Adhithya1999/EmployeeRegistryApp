@@ -11,7 +11,7 @@
 	<groupId>com.restapi.employeeRegistry</groupId>
 	<artifactId>employeeRegistry</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Employee-App</name>
+	<name>EmployeeRegistryApp</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -31,6 +31,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

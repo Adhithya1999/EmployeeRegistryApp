@@ -19,7 +19,7 @@ import com.restapi.employeeRegistry.repositories.EmpRepository;
 
 
 
-
+//service
 @Service
 @Component
 public class EmpService {
@@ -75,7 +75,7 @@ public class EmpService {
 	public List<Employee> fetchAll()
 	{
 		List<Employee>list=repo.findAll();
-		 list.sort(Comparator.comparing(Employee::getSalary).reversed().thenComparing(Employee::getE_name));
+		list.sort(Comparator.comparing(Employee::getSalary).reversed().thenComparing(Employee::getE_name));
 
 		 
 		 return list;

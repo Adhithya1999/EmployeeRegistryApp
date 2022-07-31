@@ -19,7 +19,7 @@ import com.restapi.employeeRegistry.exceptionsandhandlers.EmployeeNotFoundExcept
 import com.restapi.employeeRegistry.service.EmpService;
 
 
-
+//RestController
 @RestController
 public class EmpController {
 	
